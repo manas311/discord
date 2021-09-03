@@ -1,0 +1,203 @@
+h1 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+.styled {
+  font-family: 'Lobster', cursive;
+}
+
+.brand {
+  width: 200px;
+  margin-left: 60px;
+  margin-right: 350px;
+}
+
+.top-part {
+  background-color: #007bff;
+  height: 730px;
+  background-image: url("images/1.2.svg");
+  text-align: center;
+  width: 100%;
+}
+
+.top-img {
+  position: absolute;
+  top: 340px;
+}
+
+.left {
+  left: -350px;
+}
+
+.right {
+  right: 0;
+}
+
+.download_down {
+  padding: 0 80px;
+}
+
+.down-btn {
+  padding-right: 40px;
+}
+
+.down-btn2 {
+  margin-right: 250px;
+}
+
+.center-white {
+  text-align: center;
+  color: white;
+  padding: 50px 480px 0 250px;
+}
+
+.navbar1 {
+  border-top: 20px;
+}
+
+.btn-open {
+  margin-left: 300px;
+}
+
+a.bottom {
+  position: relative;
+  margin: 0 10px;
+}
+
+a.bottom:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.bottom:hover:before {
+  visibility: visible;
+  height: 3px;
+}
+
+.topic {
+  width: 100%;
+  height: 700px;
+  ;
+}
+
+.half-topic {
+  background-color: #A2DBFA;
+  text-align: center;
+  width: auto;
+  height: 400px;
+}
+
+.section-1 {
+  display: flex;
+}
+
+.right-text {
+  margin: 50px 200px 0 200px;
+}
+
+.left-image {
+  padding-top: 60px;
+}
+
+.left-text {
+  margin: 50px 150px 0 150px;
+}
+
+.right-image {
+  padding-top: 60px;
+}
+
+.section-1 {
+  display: flex;
+}
+
+.section-2 {
+  display: flex;
+  background-color: #F3F1F5;
+}
+
+.section-3 {
+  display: flex;
+}
+
+.section-4 {
+  display: flex;
+  background-color: #F3F1F5;
+}
+
+.final_text{
+  padding-top: 150px;
+}
+
+.imagine_text{
+  padding-bottom: 60px;
+}
+
+.imagine-div{
+  padding-right: 70px;
+}
+
+/* footer/navbar */
+.generic_footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+#footer{
+  padding-top: 40px;
+}
+
+.max-width-container {
+  max-width: 1224px;
+  margin-left: auto;
+  margin-right: auto;;
+}
+
+.footer_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer_list_item a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 2;
+}
+
+#footer_bottom {
+  border-top: 1px solid #666;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.down-logoimg {
+  width: 250px;
+}
+
+.btn-last {
+  margin-left: 800px;
+}
+
+.left-icons {
+  display: block;
+}
+
+.fa2{
+  padding-left: 10px;
+  color: white;
+}
